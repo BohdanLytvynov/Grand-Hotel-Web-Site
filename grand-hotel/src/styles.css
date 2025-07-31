@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+html{
+    font-size: 62.5%;
+    /* Use Padding and border during height and width calculations */
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
