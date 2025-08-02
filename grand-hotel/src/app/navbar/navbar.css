@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 .menu-icon{
@@ -54,4 +55,134 @@
     margin-bottom: 1rem;
     font-size: 1.5rem;
     color: #555;
+}
+
+
+.navigation{
+    margin-left: -48rem;
+    position: fixed;
+    height: 100%;
+    width: 40rem; 
+    background: linear-gradient(to top, 
+    rgba(34,32,41,1), rgba(34,32,41,0.8)),
+    url("../../../public/img/nav-bg.jpeg") 
+    center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0.9;
+    transition: margin-left 0.5s;  
+}
+
+.navigation-heading{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    color: #deaa86;
+    text-align: center;
+}
+
+.navigation-search-input{
+    width: 30rem;
+    padding: 1rem 2rem;
+    background-color: rgba(0,0,0, 0.3);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    color: #deaa86;
+    letter-spacing: 0.1rem;
+    outline: none;
+    border: 0.1rem solid #555;
+    border-radius: 10rem;
+    transition: background-color 0.3s;
+}
+
+.navigation-search-input:focus{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.navigation-search-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #deaa86;
+    font-size: 1.7rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;    
+}
+
+.navigation-search-btn:focus{
+    outline: none;
+}
+
+.navigation-search{
+    position: relative;
+}
+
+.navigation-list{
+    list-style: none;
+    padding: 0px;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-link{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.navigation-link:hover{
+    color: #deaa86
+
+}
+
+.navigation-link:hover::after{
+    width: 3rem;    
+}
+
+.navigation-link:hover::before{
+    width: 3rem;    
+}
+
+.navigation-item{
+    position: relative;
+}
+
+.navigation-link::before{
+    content: "";
+    width: 0rem;
+    height: 0.1rem;
+    background-color: #deaa86;
+    position: absolute;
+    top: 1rem;
+    left: -4rem;
+    transition: width 0.5s cubic-bezier(1,0,0,1);
+}
+
+.navigation-link:after{
+    content: "";
+    width: 0rem;
+    height: 0.1rem;
+    background-color: #deaa86;
+    position: absolute;
+    top: 1rem;
+    right: -4rem;
+    transition: width 0.5s cubic-bezier(1,0,0,1);
+}
+
+.copyright{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
