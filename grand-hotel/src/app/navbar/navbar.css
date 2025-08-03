@@ -23,12 +23,13 @@
     height: 0.2rem;
     width: 2.5rem;
     background-color: #222;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.6rem;    
 }
 
 .line-1, .line-3{
     width: 1.8rem;
-    transition: width, 0.5s;    
+    transition: width 0.5s, transform 0.5s;
+    transform-origin: top left;
 }
 
 .social-icons-list{
@@ -73,7 +74,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 0.9;
-    transition: margin-left 0.5s;  
+    transition: margin-left 0.5s cubic-bezier(1,0,0,1);  
 }
 
 .navigation-heading{
@@ -184,5 +185,5 @@
 .copyright{
     color: #fff;
     font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;    
 }
