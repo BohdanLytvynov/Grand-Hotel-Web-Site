@@ -55,6 +55,19 @@
     cursor: pointer;
 }
 
+.small-underline{
+    width: 9rem;
+    height: 0.1rem;
+    background-color: #b85d1c;
+    margin: 0 auto 1rem auto;
+}
+
+.big-underline{
+    width: 20rem;
+    height: 0.1rem;
+    background-color: #b85d1c;
+}
+
 .about-us-btn:hover .btn-arrow{
     margin-left: 1.5rem;
 }
@@ -65,8 +78,7 @@
     top: 50%;
     left: 50%;
     box-shadow: 0 3rem 6rem rgba(0,0,0,0.4);
-    border-radius: 0.4rem;
-    border: 0.2rem solid #b85d1c;
+    border-radius: 0.4rem;    
 }
 
 .image-1{

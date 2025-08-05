@@ -1,0 +1,27 @@
+.common-header{
+    padding: 5rem;
+    color: #b85d1c;
+    text-align: center;
+}
+
+.small-underline{
+    /* width: 40rem; */
+    height: 0.1rem;
+    background-color: #b85d1c;
+    margin: 0 auto 1rem auto;
+}
+
+.big-underline{
+    /* width: 20rem; */
+    height: 0.1rem;
+    background-color: #b85d1c;
+    margin: 0 auto 1rem auto;
+}
+
+.common-heading{
+    font-family: 'Josefine Sans', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+}

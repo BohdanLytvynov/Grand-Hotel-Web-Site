@@ -13,21 +13,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.small-underline{
-    width: 9rem;
-    height: 0.1rem;
-    background-color: #b85d1c;
-    margin: 0 auto 1rem auto;
-}
-
-.big-underline{
-    width: 20rem;
-    height: 0.1rem;
-    background-color: #b85d1c;
-}
-
 .btn-arrow{
     margin-left: 0.5rem;
     transition: margin-left 0.5s;
 }
+
 
