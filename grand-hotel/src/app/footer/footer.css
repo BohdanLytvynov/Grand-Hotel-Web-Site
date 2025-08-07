@@ -115,3 +115,32 @@
 .text-right span{
     color: gold;    
 }
+
+@media(max-width: 1400px) {
+    .main-part{
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .footer-list{
+        display: flex;
+    }
+
+    .footer-list-item{
+        margin-right: 3rem;
+    }
+}
+
+@media(max-width: 750px){
+    .footer-list{
+        display: block;
+    }
+
+    .creator-part{
+        flex-direction: column;
+    }
+
+    .copyrigth-text{
+        order: 1;
+    }
+}

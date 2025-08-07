@@ -24,7 +24,7 @@
 
 .about-us-images{
     flex: 1 1;
-    position: relative;
+    position: relative;    
 }
 
 .sub-heading{
@@ -78,7 +78,8 @@
     top: 50%;
     left: 50%;
     box-shadow: 0 3rem 6rem rgba(0,0,0,0.4);
-    border-radius: 0.4rem;    
+    border-radius: 0.4rem;
+    z-index: 0.9;   
 }
 
 .image-1{
@@ -95,4 +96,40 @@
 
 .image-4{
     transform: translate(-30%, -30%);
+}
+
+@media(max-width: 1200px){
+    .about-us{
+        flex-direction: column;
+        padding-bottom: 20rem;
+    }
+
+    .about-us-content{
+        margin-bottom: 13rem;
+    }
+
+    .image{
+        width: 25rem;
+    }
+}
+
+@media(max-width: 900px){
+    .banner{
+        text-align: center;
+    }
+
+    .banner-heading{
+        font-size: 4.7rem;
+    }
+
+    .banner-paragraph{
+        font-size: 2.6rem;
+    }
+
+    .banner-button{
+        width: 16rem;
+        font-size: 1.5rem;
+    }
+
+    
 }
