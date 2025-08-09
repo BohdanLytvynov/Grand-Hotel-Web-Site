@@ -144,3 +144,14 @@
         order: 1;
     }
 }
+
+@media(max-width:450px){
+    .footer-form{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-btn{
+        align-self: flex-end;
+    }
+}

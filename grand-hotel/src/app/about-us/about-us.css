@@ -79,7 +79,7 @@
     left: 50%;
     box-shadow: 0 3rem 6rem rgba(0,0,0,0.4);
     border-radius: 0.4rem;
-    z-index: 0.9;   
+    z-index: 8; 
 }
 
 .image-1{
@@ -129,7 +129,23 @@
     .banner-button{
         width: 16rem;
         font-size: 1.5rem;
-    }
+    }    
+}
 
-    
+@media(max-width: 500px){
+    .image{
+        width: 13em;
+    }
+}
+
+@media(max-width:507px){
+    .sub-heading{
+        text-align: center;
+    }
+}
+
+@media(max-width:485px){
+    .about-us-heading{
+        text-align: center;
+    }
 }

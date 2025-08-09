@@ -25,3 +25,13 @@
     letter-spacing: 0.2rem;
     font-weight: 300;
 }
+
+@media(max-width:510px){
+    .big-underline{
+        width: 6rem;
+    }
+
+    .small-underline{
+        width: 4rem;
+    }
+}

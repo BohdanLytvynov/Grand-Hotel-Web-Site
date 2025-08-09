@@ -68,6 +68,7 @@
     animation-duration: 2s;
     animation-fill-mode: backwards;
     animation-delay: 1s;
+    z-index: 0.9;
 }
 
 .banner-button:hover{
@@ -92,5 +93,25 @@
 @media(max-width:900px){
     .banner-heading{
         text-align: center;
+    }       
+}
+
+@media(max-width:490px){
+    .banner-paragraph{
+        text-align: center;
+    }
+}
+
+@media(max-height:440px){
+    .banner-heading{
+        font-size: 3rem;
+    }
+
+    .banner-paragraph{
+        font-size: 2rem;        
+    }
+
+    .banner{
+        justify-content: start;        
     }
 }
